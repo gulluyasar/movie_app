@@ -7,7 +7,7 @@ import 'package:flutter_application_4/model/person_response.dart';
 import 'package:flutter_application_4/model/video_response.dart';
 
 class MovieRepository {
-  final String apiKey = "0c1b73c6ad7e0a9d8c942e88ce4db051";
+  final String apiKey = "YOUR API KEY";
   //"<<eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwYzFiNzNjNmFkN2UwYTlkOGM5NDJlODhjZTRkYjA1MSIsInN1YiI6IjY0ZDIyZjhhNTQ5ZGRhMDExYzI5OTdmZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.KFVN0pRNvNbX_uupce7bNxngGCNvfQY9QNcsuFtLpbU>>";
   static String mainUrl = "https://api.themoviedb.org/3";
   final Dio _dio = Dio();
